@@ -21,4 +21,5 @@ PRODUCT_PACKAGES += \
 	UEIQuicksetSDKLeTV \
 	LocationEM2 \
 	MTKThermalManager \
-	FingerSecurity
+	FingerSecurity \
+	BatteryChargeLimit
