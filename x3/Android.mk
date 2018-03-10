@@ -32,16 +32,6 @@ LOCAL_MODULE_SUFFIX := .so
 include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
-LOCAL_MODULE := libbwc
-LOCAL_SRC_FILES_64 := vendor/lib64/libbwc.so
-LOCAL_SRC_FILES_32 := vendor/lib/libbwc.so
-LOCAL_PROPRIETARY_MODULE := true
-LOCAL_MULTILIB := both
-LOCAL_MODULE_CLASS := SHARED_LIBRARIES
-LOCAL_MODULE_SUFFIX := .so
-include $(BUILD_PREBUILT)
-
-include $(CLEAR_VARS)
 LOCAL_MODULE := libnvram
 LOCAL_SRC_FILES_64 := vendor/lib64/libnvram.so
 LOCAL_SRC_FILES_32 := vendor/lib/libnvram.so
@@ -101,16 +91,6 @@ LOCAL_SHARED_LIBRARIES = libc++ libz libutils libRS_internal libbcinfo liblog li
 LOCAL_MULTILIB = both
 LOCAL_SRC_FILES_64 = vendor/lib64/libRSDriver_mtk.so
 LOCAL_SRC_FILES_32 := vendor/lib/libRSDriver_mtk.so
-include $(BUILD_PREBUILT)
-
-include $(CLEAR_VARS)
-LOCAL_MODULE := libm4u
-LOCAL_SRC_FILES_64 := vendor/lib64/libm4u.so
-LOCAL_SRC_FILES_32 := vendor/lib/libm4u.so
-LOCAL_PROPRIETARY_MODULE := true
-LOCAL_MULTILIB := both
-LOCAL_MODULE_CLASS := SHARED_LIBRARIES
-LOCAL_MODULE_SUFFIX := .so
 include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
