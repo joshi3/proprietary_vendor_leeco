@@ -12,7 +12,6 @@ PRODUCT_COPY_FILES += $(call find-copy-subdir-files,*,vendor/leeco/x3/proprietar
 
 # Files from app folder
 PRODUCT_COPY_FILES += $(call find-copy-subdir-files,*,vendor/leeco/x3/proprietary/app/LetvRemoteControl_WW/lib,system/app/LetvRemoteControl_WW/lib)
-PRODUCT_COPY_FILES += $(call find-copy-subdir-files,*,vendor/leeco/x3/proprietary/app/mcRegistry,system/app/mcRegistry)
 
 # App's APKs
 PRODUCT_PACKAGES += \
@@ -20,8 +19,4 @@ PRODUCT_PACKAGES += \
 	LetvRemoteControl_WW \
 	UEIQuicksetSDKLeTV \
 	LocationEM2 \
-	MTKThermalManager \
-
-	PRODUCT_PACKAGES += \
-	FingerSecurity \
-	BatteryChargeLimit
+	MTKThermalManager
