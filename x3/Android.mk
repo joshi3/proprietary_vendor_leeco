@@ -34,7 +34,6 @@ LOCAL_MULTILIB = 32
 LOCAL_SRC_FILES_32 = proprietary/lib/libdpframework.so
 include $(BUILD_PREBUILT)
 
-
 $(info [SscSPs] copying APK files)
 
 include $(CLEAR_VARS)
